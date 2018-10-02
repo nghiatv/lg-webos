@@ -1,0 +1,46 @@
+
+
+.card{
+  flex: 0 0 420px;
+  overflow: hidden;
+  padding: 0 ;
+  &:focus {
+    background: transparent !important;
+    .image{
+      border-color: #fff;
+    }
+  }
+}
+.wrapper {
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+}
+
+.image{
+  width: 100%;
+  border: 8px solid transparent;
+}
+
+.data {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.content {
+  padding: 0.25em 8px;
+  position: relative;
+  z-index: 1;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1em;
+  white-space: normal;
+  font-family: "MuseoSans";
+}
+.text {
+  margin: 0;
+  font-size: 0.8em;
+}
